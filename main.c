@@ -37,7 +37,7 @@ len = _printf("Percent:[%%]\n");
 len4 = printf("Percent:[%%]\n"); /* Note: corrected len2 to len4 here */
 _printf("Len:[%d]\n", len);
 printf("Len:[%d]\n", len4); /* Note: corrected len2 to len4 here */
-_printf("%b\n", 98);
 _printf("%S\n", "Best\nSchool");
+_printf("%b\n", 98);
 return (0);
 }
