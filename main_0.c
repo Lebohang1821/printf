@@ -20,5 +20,15 @@ printf("Lengths differ.\n");
 fflush(stdout);
 return (1);
 }
+else 
+len = _printf("%c", 'S');
+len2 = printf("%c", 'S');
+fflush(stdout);
+if (len != len2)
+{
+printf("Lengths differ.\n");
+fflush(stdout);
+return (1);
+}
 return (0);
 }
